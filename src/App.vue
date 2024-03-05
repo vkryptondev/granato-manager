@@ -1,10 +1,5 @@
-<script setup>
-</script>
-
 <template>
-  <div class="container">
-  </div>
+  <main>
+    <RouterView />
+  </main>
 </template>
-
-<style scoped>
-</style>
