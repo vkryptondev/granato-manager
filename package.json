@@ -1,7 +1,7 @@
 {
   "name": "granato-manager",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^1",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1",
