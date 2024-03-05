@@ -2,8 +2,9 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import App from './App.vue'
 
+import 'bootstrap/scss/bootstrap.scss';
 import '@unocss/reset/tailwind.css'
-import './styles/main.css'
+import './assets/styles/main.scss'
 import 'uno.css'
 
 const app = createApp(App)
